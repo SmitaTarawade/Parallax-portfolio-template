@@ -1,0 +1,393 @@
+body
+{
+font-size:20px; 
+margin:0;
+font-family:Arial;
+padding:0;
+}
+
+ul
+{
+margin:0 auto;
+padding:0;
+list-style:none;
+}
+section
+{
+overflow:hidden;
+height:900px;
+}
+
+#intro
+{
+background:url(../Images/congruent.png);
+color:#000;
+
+}
+
+
+	#intro h1
+	{
+	background-color:#8AE6B8;
+	width:850px; height:160px;
+	text-indent: 300px;
+	position:relative;
+	top:145px;
+	left:0;
+	font-size:70px;
+	color:#FFFFCC;
+	font-family:Arial;
+	font-weight:bold;
+	}
+
+
+
+	#intro p
+	{
+	position:relative;
+	top:200px;
+	left:300px;
+	width:500px;
+	margin:0 0 30px 0;
+	color:#636363;
+	}
+
+	#intro p:nth-child(2)
+	{
+	font-weight:bold;
+
+	}
+#tumblr
+{
+background:url(../Images/geometry2.png);
+}
+
+	#tumblr h2
+	{
+		background-color:#336699;
+		width:850px; height:160px;
+		position:relative;
+		top:100px;
+		text-indent:100px;
+		font-family:Big Calson;
+		font-weight:bold;
+		margin:0 0 30px 500px;
+		color:#F5F5F5;
+		font-size:150px;
+	}
+
+	#tumblr p
+		{
+		position:relative;
+		top:130px;
+		left:600px;
+		width:500px;
+		margin:0 0 30px 0;
+		color:#636363;
+		}
+
+	#tumblr ul li
+	{
+	float:left; box-shadow:0 0 20px rgba(0,0,0,0.5);
+	position:absolute; list-style:none;
+	margin:180px 0 0 -50px;
+	}
+
+	#tumblr ul li:nth-child(1)
+	{
+	left:100px;
+	transform:rotate(10deg);
+	-moz-transform:rotate(10deg);
+	-webkit-transform:rotate(10deg);
+	z-index:1;
+	}
+
+	#tumblr ul li:nth-child(2)
+	{
+	left:400px;
+	transform:rotate(-5deg);
+	-moz-transform:rotate(-5deg);
+	-webkit-transform:rotate(-5deg);
+	z-index:3;
+	}
+
+	#tumblr ul li:nth-child(3)
+	{
+	left:700px;
+	transform:rotate(4deg);
+	-moz-transform:rotate(4deg);
+	-webkit-transform:rotate(4deg);
+	z-index:2;
+	}
+	#tumblr ul li:nth-child(4)
+	{
+	left:1000px;
+	transform:rotate(-10deg);
+	-moz-transform:rotate(-10deg);
+	-webkit-transform:rotate(-10deg);
+	z-index:1;
+	}
+
+	#tumblr ul li:hover
+	{;
+	transform:rotate(2deg);
+	-moz-transform:rotate(2deg);
+	-webkit-transform:rotate(2deg);
+	}
+
+
+#tumblr .btn a
+{
+display:block;
+width:250px;
+height:70px;
+color:#fff;
+background-color:#336699;
+text-decoration:none;
+font-size:30px;
+font-style:Arial;
+line-height:70px;
+text-align:center;
+border-radius:100px;
+margin:350px 0 0 -30px;
+}
+
+#tumblr .btn a:hover
+{
+color:#FFFFCC;
+}
+
+#channel
+{
+background:url(../Images/upattern.png);
+color:#fff;
+}
+
+#channel a img
+{
+margin:40px 0 0 0;
+}
+
+	#channel h2
+	{
+	background-color:#6E2525;
+	width:850px; height:160px;
+	position:relative;
+	top:100px;
+	text-indent:100px;
+	font-family:arial;
+	font-weight:bold;
+	color:#D63333;
+	font-size:70px;
+	margin:0;
+	}
+
+
+	#channel p
+		{
+		position:relative;
+		top:130px;
+		left:300px;
+		width:500px;
+		margin:0 0 30px 0;
+		color:#fff;
+		}
+
+#website
+{
+background:url(../Images/stardust.png);
+color:#fff;
+}
+
+
+#website h2
+{
+float:right;
+		background:url(../Images/giftly1.jpg);
+		width:850px; height:160px;
+		position:relative;
+		top:100px;
+		text-indent:100px;
+		font-family:Arial;
+		font-weight:bold;
+		margin:0 0 30px 500px;
+		color:#555555;
+		font-size:100px;
+		line-height:150px;
+}
+
+
+
+#website a img
+{
+margin-top:-90px;
+
+}
+
+	#website p
+		{
+		position:relative;
+		top:100px;
+		left:550px;
+		width:500px;
+		margin:0;
+		color:#fff;
+		}
+
+
+#ig
+{
+background:url(../Images/skulls.png);
+}
+
+
+#ig #insta img
+{
+float:right;
+margin:100px -15px 0 0;
+border:8px solid #BCBCBC;
+}
+
+#ig h2
+{
+float:left;
+background-color:#BCBCBC;
+width:850px; height:160px;
+position:relative;
+top:100px;
+text-indent:300px;
+font-family:arial;
+font-weight:bold;
+color:#FFFFE9;
+font-size:70px;
+margin:0;
+line-height:150px;
+}
+
+
+	#ig p
+		{
+		position:relative;
+		top:150px;
+		left:300px;
+		width:500px;
+		margin:0 0 30px 0;
+		color:#636363;
+		}
+
+
+#ig ul li
+	{
+	float:left; box-shadow:0 0 20px rgba(0,0,0,0.5);
+	position:absolute; list-style:none;
+	margin:150px 0 0 100px;
+	}
+
+	#ig ul li:nth-child(1)
+	{
+	left:100px;
+	}
+
+	#ig ul li:nth-child(2)
+	{
+	left:400px;
+	}
+
+	#ig ul li:nth-child(3)
+	{
+	left:700px;
+	}
+
+#ig ul li img:hover
+{
+height:325px;
+width:255px;
+}
+
+#ig .btn a
+{
+display:block;
+width:250px;
+height:70px;
+color:#ffffe9;
+background-color:#bcbcbc;
+text-decoration:none;
+font-size:30px;
+font-style:Arial;
+line-height:70px;
+text-align:center;
+border-radius:100px;
+margin:380px 0 0 200px;
+}
+
+#ig .btn a:hover
+{
+color:#636363;
+}
+
+#fb
+{
+background:url(../Images/paper.png);
+height:700px;
+}
+
+#fb a img
+{
+float:left;
+margin:-90px 0 0 -10px;
+border:8px solid #1E3B93;
+}
+
+#fb h2
+{
+float:right;
+background-color:#1E3B93;
+		width:850px; height:160px;
+		position:relative;
+		top:100px;
+		text-indent:100px;
+		font-family:Arial;
+		font-weight:bold;
+		margin:0 0 30px 500px;
+		color:#F5F5F5;
+		font-size:75px;
+line-height:150px;
+}
+
+#fb p
+{
+position:relative;	
+top:130px;
+left:350px;
+width:750px;
+color:#636363;
+}
+
+#fb .btn a
+{
+display:block;
+width:250px;
+height:70px;
+color:#fff;
+background-color:#1E3b93;
+text-decoration:none;
+font-size:30px;
+font-style:Arial;
+line-height:70px;
+text-align:center;
+border-radius:100px;
+margin:50px 0 0 200px;
+}
+
+#fb .btn a:hover
+{
+color:#ffffcc;
+}
+
+.btn a, h2, h1, img
+{-webkit-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+

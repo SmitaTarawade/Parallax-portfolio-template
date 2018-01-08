@@ -1,0 +1,82 @@
+<!Doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>My Sites</title>
+	<link href="css/style.css" rel="stylesheet"/>
+
+<link href="js/curtain.css" rel="stylesheet" />
+
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="js/curtain.js"></script>
+<script src="js/jquery.scrollorama.js"></script>
+<script src="js/scripts.js"></script>
+
+</head>
+
+<body>
+<ul class="curtains">
+	<li>
+		<section id="intro">
+
+			<h1>My Homes On &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Web</h1>
+			
+			<p>How’s it going? I'm Chris Spooner. I'm a creative Designer, avid Blogger and I'm generally crazy about pretty 				colours and shapes.</p>
+		
+			<p>Like most people who spend a lot of time on the Interwebs, a portal to all the places you can find my content on 			the web.</p>
+		
+			<p>Fancy visiting my homes on the net? Here you’ll find info and links to my best stuff.</p>
+		</section>
+	</li>
+
+	<li>
+		<section id="tumblr">
+
+			<h2>tumblr.</h2>
+			
+			<a  href="www.tumblr.com" id="tumblr"></a>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in </p>
+
+			
+			<ul>
+				<li><a href="#"><img src="Images/vid1.jpg" width="300" height="200" /></a></li>
+				<li><a href="#"><img src="Images/vid2.jpeg" width="300" height="200" /></a></li>
+				<li><a href="#"><img src="Images/vid3.jpg" width="300" height="200" /></a></li>
+				<li><a href="#"><img src="Images/vid4.jpg" width="300" height="200" /></a></li>
+			</ul>	
+			<p class="btn"><a href="http://instagram.com/">Visit here</a></p>
+		</section>
+	</li>
+
+
+	<li>
+		<section id="ig">
+
+			<h2>All My Pictures</h2>
+			
+			<a  href="http://instagram.com/" id="insta"><img src="Images/insta.jpg" width="190" height="145"></a>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	
+			
+			<ul>
+				<li><a href="#"><img src="Images/girl1.jpg" width="250" height="320" /></a></li>
+				<li><a href="#"><img src="Images/girl2.jpg" width="250" height="320" /></a></li>
+				<li><a href="#"><img src="Images/girl3.jpg" width="250" height="320" /></a></li>
+			</ul>
+
+			<p class="btn"><a href="http://instagram.com/">Visit here</a></p>
+		</section>
+	</li>
+
+
+	
+</ul>
+
+
+
+</body>
+
+
+</html>
